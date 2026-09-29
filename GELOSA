@@ -1,0 +1,248 @@
+<mxfile host="app.diagrams.net" modified="2026-09-28T21:00:00.000Z" agent="ChatGPT" version="26.0.0">
+  <diagram id="agar-sangre-01" name="Preparación de Agar Sangre">
+    <mxGraphModel dx="1400" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- INICIO -->
+        <mxCell id="inicio" value="INICIO&#xa;Preparación de cajas de agar sangre"
+                style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=16;"
+                vertex="1" parent="1">
+          <mxGeometry x="325" y="30" width="300" height="70" as="geometry"/>
+        </mxCell>
+
+        <!-- PESADO -->
+        <mxCell id="pesaje" value="1. PESAR AGAR BASE&#xa;&#xa;• Agar base deshidratado en polvo&#xa;• Preparación aproximada: 700 mL"
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;"
+                vertex="1" parent="1">
+          <mxGeometry x="280" y="140" width="390" height="95" as="geometry"/>
+        </mxCell>
+
+        <!-- IMAGEN PESADO -->
+        <mxCell id="imgPesaje" value="📷&#xa;IMAGEN:&#xa;Agar en polvo + balanza"
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;fontColor=#666666;fontSize=11;dashed=1;"
+                vertex="1" parent="1">
+          <mxGeometry x="700" y="145" width="160" height="85" as="geometry"/>
+        </mxCell>
+
+        <!-- PREPARACION -->
+        <mxCell id="preparacion" value="2. PREPARAR EL MEDIO&#xa;&#xa;Agregar agua al agar base y preparar aproximadamente 700 mL."
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;"
+                vertex="1" parent="1">
+          <mxGeometry x="280" y="275" width="390" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- CALENTAMIENTO -->
+        <mxCell id="calentamiento" value="3. CALENTAMIENTO Y DISOLUCIÓN&#xa;&#xa;Calentar utilizando mecheros Fisher hasta lograr la completa disolución del agar."
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;"
+                vertex="1" parent="1">
+          <mxGeometry x="280" y="395" width="390" height="90" as="geometry"/>
+        </mxCell>
+
+        <!-- IMAGEN MECHERO -->
+        <mxCell id="imgMechero" value="🔥&#xa;IMAGEN:&#xa;Matraz + mechero Fisher"
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;fontColor=#666666;fontSize=11;dashed=1;"
+                vertex="1" parent="1">
+          <mxGeometry x="700" y="400" width="160" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- AUTOCLAVE -->
+        <mxCell id="autoclave" value="4. ESTERILIZACIÓN&#xa;&#xa;Autoclave&#xa;121 °C durante 15 minutos"
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=13;"
+                vertex="1" parent="1">
+          <mxGeometry x="280" y="525" width="390" height="90" as="geometry"/>
+        </mxCell>
+
+        <!-- IMAGEN AUTOCLAVE -->
+        <mxCell id="imgAutoclave" value="📷&#xa;IMAGEN:&#xa;Autoclave de laboratorio"
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;fontColor=#666666;fontSize=11;dashed=1;"
+                vertex="1" parent="1">
+          <mxGeometry x="700" y="530" width="160" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- DECISION ESTERILIZACION -->
+        <mxCell id="decEsterilizacion" value="¿Terminó correctamente&#xa;la esterilización?"
+                style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;"
+                vertex="1" parent="1">
+          <mxGeometry x="340" y="660" width="270" height="120" as="geometry"/>
+        </mxCell>
+
+        <!-- ENFRIAMIENTO -->
+        <mxCell id="enfriamiento" value="5. ENFRIAMIENTO DEL AGAR&#xa;&#xa;Retirar del autoclave y dejar enfriar antes de agregar la sangre para evitar una posible lisis de los eritrocitos."
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;"
+                vertex="1" parent="1">
+          <mxGeometry x="280" y="825" width="390" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- DECISION TEMPERATURA -->
+        <mxCell id="decTemperatura" value="¿El agar está suficientemente frío para agregar la sangre?"
+                style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;"
+                vertex="1" parent="1">
+          <mxGeometry x="320" y="970" width="310" height="140" as="geometry"/>
+        </mxCell>
+
+        <!-- SANGRE -->
+        <mxCell id="sangre" value="6. OBTENCIÓN DE SANGRE&#xa;&#xa;2 personas&#xa;• Persona 1: ≈10 mL&#xa;• Persona 2: ≈10 mL&#xa;• Total: ≈20 mL"
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;"
+                vertex="1" parent="1">
+          <mxGeometry x="280" y="1160" width="390" height="120" as="geometry"/>
+        </mxCell>
+
+        <!-- IMAGEN SANGRE -->
+        <mxCell id="imgSangre" value="📷&#xa;IMAGEN:&#xa;Extracción de sangre con jeringa"
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;fontColor=#666666;fontSize=11;dashed=1;"
+                vertex="1" parent="1">
+          <mxGeometry x="700" y="1180" width="160" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- ADICION -->
+        <mxCell id="adicion" value="7. ADICIÓN DE LA SANGRE&#xa;&#xa;Vaciar las 2 jeringas directamente en el matraz con el agar previamente enfriado."
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;"
+                vertex="1" parent="1">
+          <mxGeometry x="280" y="1325" width="390" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- HOMOGENEIZACION -->
+        <mxCell id="homogeneizacion" value="8. HOMOGENEIZACIÓN&#xa;&#xa;Agitar manualmente el matraz de manera suave para distribuir la sangre en el medio."
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;"
+                vertex="1" parent="1">
+          <mxGeometry x="280" y="1470" width="390" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- DECISION HOMOGENEIDAD -->
+        <mxCell id="decHomogeneidad" value="¿La sangre quedó distribuida homogéneamente?"
+                style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;"
+                vertex="1" parent="1">
+          <mxGeometry x="330" y="1615" width="290" height="125" as="geometry"/>
+        </mxCell>
+
+        <!-- VERTIDO -->
+        <mxCell id="vertido" value="9. DISTRIBUCIÓN EN CAJAS PETRI&#xa;&#xa;• Realizar dentro de una campana&#xa;• Utilizar 25 cajas Petri&#xa;• Verter aproximadamente 10 mL/caja&#xa;• Volumen estimado visualmente hasta cubrir la superficie&#xa;• Sin medición volumétrica exacta"
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;"
+                vertex="1" parent="1">
+          <mxGeometry x="260" y="1790" width="430" height="145" as="geometry"/>
+        </mxCell>
+
+        <!-- IMAGEN VERTIDO -->
+        <mxCell id="imgVertido" value="📷&#xa;IMAGEN:&#xa;Vertido del agar en cajas Petri dentro de campana"
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;fontColor=#666666;fontSize=11;dashed=1;"
+                vertex="1" parent="1">
+          <mxGeometry x="730" y="1820" width="180" height="85" as="geometry"/>
+        </mxCell>
+
+        <!-- DECISION CUBIERTA -->
+        <mxCell id="decCubierta" value="¿La superficie quedó completamente cubierta?"
+                style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;"
+                vertex="1" parent="1">
+          <mxGeometry x="330" y="1980" width="290" height="125" as="geometry"/>
+        </mxCell>
+
+        <!-- SOLIDIFICACION -->
+        <mxCell id="solidificacion" value="10. SOLIDIFICACIÓN&#xa;&#xa;Dejar las cajas a temperatura ambiente hasta que el medio solidifique completamente."
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;"
+                vertex="1" parent="1">
+          <mxGeometry x="280" y="2150" width="390" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- DECISION SOLIDIFICACION -->
+        <mxCell id="decSolidificacion" value="¿El medio está completamente solidificado?"
+                style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;"
+                vertex="1" parent="1">
+          <mxGeometry x="330" y="2295" width="290" height="125" as="geometry"/>
+        </mxCell>
+
+        <!-- INVERSION -->
+        <mxCell id="inversion" value="11. INVERSIÓN DE LAS CAJAS&#xa;&#xa;Una vez solidificado el medio, invertir las cajas Petri."
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;"
+                vertex="1" parent="1">
+          <mxGeometry x="280" y="2460" width="390" height="90" as="geometry"/>
+        </mxCell>
+
+        <!-- IMAGEN INVERSION -->
+        <mxCell id="imgInversion" value="📷&#xa;IMAGEN:&#xa;Caja Petri invertida"
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;fontColor=#666666;fontSize=11;dashed=1;"
+                vertex="1" parent="1">
+          <mxGeometry x="700" y="2465" width="160" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- REFRIGERACION -->
+        <mxCell id="refrigeracion" value="12. ALMACENAMIENTO&#xa;&#xa;Colocar las cajas invertidas en refrigeración.&#xa;&#xa;Nota: la temperatura exacta del refrigerador no fue registrada."
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=13;"
+                vertex="1" parent="1">
+          <mxGeometry x="280" y="2600" width="390" height="110" as="geometry"/>
+        </mxCell>
+
+        <!-- IMAGEN REFRIGERADOR -->
+        <mxCell id="imgRefrigeracion" value="📷&#xa;IMAGEN:&#xa;Cajas Petri invertidas en refrigeración"
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;fontColor=#666666;fontSize=11;dashed=1;"
+                vertex="1" parent="1">
+          <mxGeometry x="700" y="2615" width="170" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- RESULTADO -->
+        <mxCell id="resultado" value="RESULTADO&#xa;&#xa;25 cajas Petri de agar sangre preparadas, solidificadas, invertidas y almacenadas en refrigeración."
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=14;"
+                vertex="1" parent="1">
+          <mxGeometry x="250" y="2780" width="450" height="110" as="geometry"/>
+        </mxCell>
+
+        <!-- FIN -->
+        <mxCell id="fin" value="FIN"
+                style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=16;"
+                vertex="1" parent="1">
+          <mxGeometry x="400" y="2960" width="150" height="65" as="geometry"/>
+        </mxCell>
+
+
+        <!-- CONECTORES PRINCIPALES -->
+
+        <mxCell id="e1" edge="1" parent="1" source="inicio" target="pesaje" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;"/>
+        <mxCell id="e2" edge="1" parent="1" source="pesaje" target="preparacion" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;"/>
+        <mxCell id="e3" edge="1" parent="1" source="preparacion" target="calentamiento" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;"/>
+        <mxCell id="e4" edge="1" parent="1" source="calentamiento" target="autoclave" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;"/>
+        <mxCell id="e5" edge="1" parent="1" source="autoclave" target="decEsterilizacion" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;"/>
+
+        <!-- DECISION ESTERILIZACION -->
+        <mxCell id="e6" value="SÍ" edge="1" parent="1" source="decEsterilizacion" target="enfriamiento" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontStyle=1;"/>
+        <mxCell id="e7" value="NO" edge="1" parent="1" source="decEsterilizacion" target="autoclave" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontStyle=1;"/>
+        
+        <!-- ENFRIAMIENTO -->
+        <mxCell id="e8" edge="1" parent="1" source="enfriamiento" target="decTemperatura" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;"/>
+        
+        <!-- TEMPERATURA -->
+        <mxCell id="e9" value="SÍ" edge="1" parent="1" source="decTemperatura" target="sangre" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontStyle=1;"/>
+        <mxCell id="e10" value="NO" edge="1" parent="1" source="decTemperatura" target="enfriamiento" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontStyle=1;"/>
+        
+        <!-- SANGRE -->
+        <mxCell id="e11" edge="1" parent="1" source="sangre" target="adicion" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;"/>
+        <mxCell id="e12" edge="1" parent="1" source="adicion" target="homogeneizacion" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;"/>
+        <mxCell id="e13" edge="1" parent="1" source="homogeneizacion" target="decHomogeneidad" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;"/>
+
+        <!-- HOMOGENEIDAD -->
+        <mxCell id="e14" value="SÍ" edge="1" parent="1" source="decHomogeneidad" target="vertido" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontStyle=1;"/>
+        <mxCell id="e15" value="NO" edge="1" parent="1" source="decHomogeneidad" target="homogeneizacion" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontStyle=1;"/>
+
+        <!-- VERTIDO -->
+        <mxCell id="e16" edge="1" parent="1" source="vertido" target="decCubierta" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;"/>
+        
+        <!-- CUBIERTA -->
+        <mxCell id="e17" value="SÍ" edge="1" parent="1" source="decCubierta" target="solidificacion" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontStyle=1;"/>
+        <mxCell id="e18" value="NO" edge="1" parent="1" source="decCubierta" target="vertido" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontStyle=1;"/>
+
+        <!-- SOLIDIFICACION -->
+        <mxCell id="e19" edge="1" parent="1" source="solidificacion" target="decSolidificacion" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;"/>
+        
+        <!-- DECISION SOLIDIFICACION -->
+        <mxCell id="e20" value="SÍ" edge="1" parent="1" source="decSolidificacion" target="inversion" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontStyle=1;"/>
+        <mxCell id="e21" value="NO" edge="1" parent="1" source="decSolidificacion" target="solidificacion" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontStyle=1;"/>
+
+        <!-- FINAL -->
+        <mxCell id="e22" edge="1" parent="1" source="inversion" target="refrigeracion" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;"/>
+        <mxCell id="e23" edge="1" parent="1" source="refrigeracion" target="resultado" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;"/>
+        <mxCell id="e24" edge="1" parent="1" source="resultado" target="fin" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;"/>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
